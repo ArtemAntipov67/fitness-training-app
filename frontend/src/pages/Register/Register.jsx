@@ -24,7 +24,7 @@ function Register() {
     event.preventDefault();
 
     try {
-      const response = await fetch("http://fitness-training-backend.onrender.com/api/auth/register", {
+      const response = await fetch("https://fitness-training-backend.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -95,7 +95,7 @@ function Profile() {
 
     try {
       const response = await fetch(
-        `http://fitness-training-backend.onrender.com/api/profile/update/${savedUser.id}`,
+        `https://fitness-training-backend.onrender.com/api/profile/update/${savedUser.id}`,
         {
           method: "PUT",
           headers: {
