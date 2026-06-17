@@ -1,0 +1,419 @@
+.workouts-header {
+  margin-bottom: 30px;
+}
+
+.workouts-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.workouts-header p {
+  color: #b0b0b0;
+}
+
+.warmup-warning {
+  background: #1b2333;
+  border: 1px solid #3b82f6;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 36px;
+}
+
+.warmup-warning h3 {
+  margin-bottom: 10px;
+}
+
+.warmup-warning p {
+  color: #b0b0b0;
+  line-height: 1.5;
+}
+
+.workout-block {
+  margin-bottom: 36px;
+}
+
+.workout-block h2 {
+  margin-bottom: 20px;
+}
+
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.goal-card {
+  background: #1e1e1e;
+  border: 2px solid #2a2a2a;
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.2s;
+}
+
+.goal-card:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.goal-card h3 {
+  margin-bottom: 8px;
+}
+
+.goal-card p {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+.active-goal {
+  border-color: #3b82f6;
+  background: #1b2333;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.location-card {
+  background: #1e1e1e;
+  border: 2px solid #2a2a2a;
+  border-radius: 20px;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #ffffff;
+  text-align: left;
+}
+
+.location-card:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.location-card h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.location-card p {
+  color: #b0b0b0;
+}
+
+.active-location {
+  border-color: #3b82f6;
+  background: #1b2333;
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.equipment-card {
+  background: #1e1e1e;
+  border: 2px solid #2a2a2a;
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: 0.2s;
+  font-size: 15px;
+}
+
+.equipment-card:hover {
+  border-color: #3b82f6;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  border: 2px solid #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3b82f6;
+  font-weight: 700;
+}
+
+.active-equipment {
+  border-color: #3b82f6;
+  background: #1b2333;
+}
+
+.muscle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.muscle-card {
+  background: #1e1e1e;
+  border: 2px solid #2a2a2a;
+  border-radius: 18px;
+  padding: 24px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #ffffff;
+  text-align: left;
+}
+
+.muscle-card:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.muscle-card span {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.muscle-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.muscle-card p {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+.active-muscle {
+  border-color: #3b82f6;
+  background: #1b2333;
+}
+
+.muscle-recommendation {
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.muscle-recommendation h3 {
+  margin-bottom: 8px;
+}
+
+.muscle-recommendation p {
+  color: #b0b0b0;
+}
+
+.exercise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.exercise-card {
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.exercise-image {
+  width: 120px;
+  background: #1b2333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
+}
+
+.exercise-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.exercise-content h3 {
+  margin-bottom: 8px;
+}
+
+.exercise-content span {
+  display: inline-block;
+  color: #3b82f6;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.exercise-content p {
+  color: #b0b0b0;
+  margin-bottom: 16px;
+}
+
+.exercise-content button {
+  background: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.exercise-content button:hover {
+  background: #2563eb;
+}
+
+.max-test {
+  margin-top: 18px;
+  padding: 18px;
+  background: #121212;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+}
+
+.max-test h4 {
+  margin-bottom: 12px;
+}
+
+.max-test input {
+  width: 100%;
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.generated-plan {
+  margin-top: 16px;
+  padding: 16px;
+  background: #1b2333;
+  border-radius: 14px;
+}
+
+.generated-plan h4 {
+  margin-bottom: 10px;
+}
+
+.generated-plan p {
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.one-rep-max {
+  color: #b0b0b0 !important;
+  margin-bottom: 12px !important;
+}
+
+.empty-exercises {
+  color: #b0b0b0;
+}
+@media (max-width: 768px) {
+  .workouts {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .workouts-header {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 28px;
+  }
+
+  .workouts-header h1 {
+    font-size: 28px;
+  }
+
+  .workouts-header p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .warmup-warning,
+  .workout-block,
+  .muscle-recommendation {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .goal-grid,
+  .location-grid,
+  .equipment-grid,
+  .muscle-grid,
+  .exercise-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px;
+  }
+
+  .goal-card,
+  .location-card,
+  .equipment-card,
+  .muscle-card,
+  .exercise-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .warmup-warning {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .warmup-warning h3,
+  .goal-card h3,
+  .location-card h3,
+  .muscle-card h3 {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .warmup-warning p,
+  .goal-card p,
+  .location-card p,
+  .muscle-card p,
+  .exercise-content p {
+    font-size: 13px;
+    line-height: 1.45;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .location-card,
+  .goal-card,
+  .muscle-card {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .equipment-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .exercise-card {
+    flex-direction: column;
+  }
+
+  .exercise-image {
+    width: 100%;
+    height: 130px;
+  }
+
+  .exercise-content {
+    padding: 16px;
+  }
+
+  .exercise-content button,
+  .max-test button {
+    width: 100%;
+  }
+}

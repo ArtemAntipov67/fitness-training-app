@@ -1,0 +1,152 @@
+.dashboard h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #b0b0b0;
+  margin-bottom: 32px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid #2a2a2a;
+}
+
+.card h3 {
+  margin-bottom: 16px;
+}
+
+.card p {
+  color: #b0b0b0;
+  font-size: 20px;
+}
+
+.small-text {
+  color: #b0b0b0;
+  font-size: 15px;
+}
+
+.weight-value {
+  color: #ffffff !important;
+  font-size: 32px !important;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.weight-form {
+  display: flex;
+  gap: 12px;
+}
+
+.weight-form input,
+.goal-form input {
+  background: #121212;
+  border: 1px solid #2a2a2a;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.weight-form input {
+  flex: 1;
+}
+
+.weight-form button {
+  background: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.weight-form button:hover {
+  background: #2563eb;
+}
+
+.goal-card-large {
+  grid-column: span 2;
+}
+
+.goal-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.goal-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #b0b0b0;
+}
+
+.goal-form input {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .dashboard {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .dashboard h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px;
+    width: 100%;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding: 18px !important;
+    border-radius: 16px;
+  }
+
+  .card h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 17px;
+    line-height: 1.35;
+    word-break: break-word;
+  }
+
+  .small-text {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .goal-card-large {
+    grid-column: auto;
+  }
+
+  .goal-form {
+    grid-template-columns: 1fr;
+  }
+}
